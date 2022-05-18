@@ -1,85 +1,209 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <a href="/">
-                WebStudio
-            </a>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css.reset.css" />
+        <link rel="stylesheet" href="./ccs.style.css" />
+    </head>
+    <body>
+        <header class="header">
+            <nav class="header-nav">
+                <a class="header-logo" href="/"> WebStudio </a>
+                <ul class="header-list">
+                    <li class="header-item">
+                        <a href="" class="header-link">Студия</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="" class="header-link">Портфолио</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="" class="header-link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
             <ul>
-    
-                <li><a href="https://kotlevska.github.io/goit-markup-hw-01/">Студия</a></li>
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
-    
+                <li>
+                    <a class="header-mail" href="info@devstudio.com"
+                        >info@devstudio.com</a
+                    >
+                </li>
+                <li>
+                    <a class="header-tel" href="+380961111111"
+                        >+38 096 111 11 11</a
+                    >
+                </li>
             </ul>
-        </nav>
-        <ul>
-    
-            <li><a href="info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-    
-    </header>
+        </header>
 
-    <ul>
-        <li><button type="button">Все</button></li>
-        <li><button type="button">Веб-сайты</button></li>
-        <li><button type="button">Приложения</button></li>
-        <li><button type="button">Дизайн</button></li>
-        <li><button type="button">Маркетинг</button></li>
-    </ul>
+        <section class="button">
+            <ul class="button-list">
+                <li class="button-item"><button type="button">Все</button></li>
+                <li class="button-item">
+                    <button type="button">Веб-сайты</button>
+                </li>
+                <li class="button-item">
+                    <button type="button">Приложения</button>
+                </li>
+                <li class="button-item">
+                    <button type="button">Дизайн</button>
+                </li>
+                <li class="button-item">
+                    <button type="button">Маркетинг</button>
+                </li>
+            </ul>
+        </section>
 
-    <main>
-        <ul>
-            <li><a> <img src="./images/img9.jpg"  alt="сайт" width="370" height="294">
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p></a></li>
-            <li><a> <img src="./images/img10.jpg" alt="баскетбол" width="370" height="294">
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p></a></li>
-            <li><a> <img src="./images/img11.jpg" alt="лого" width="370" height="294">
-            <h2>Ресторан Seafood</h2>
-            <p>Приложение</p></a></li>
-            <li><a> <img src="./images/img12.jpg" alt="наушники" width="370" height="294">
-            <h2>Проект Prime</h2>
-            <p>Маркетинг</p></a></li>
-            <li><a> <img src="./images/img13.jpg" alt="коробки" width="370" height="294">
-            <h2>Проект Boxes</h2>
-            <p>Приложение</p></a></li>
-            <li><a> <img src="./images/img14.jpg" alt="монитор" width="370" height="294">
-            <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p></a></li>
-            <li><a> <img src="./images/img15.jpg" alt="журнал" width="370" height="294">
-            <h2>Издание Limited Edition</h2>
-            <p>Дизайн</p></a></li>
-            <li><a> <img src="./images/img16.jpg" alt="бирка" width="370" height="294">
-            <h2>Проект LAB</h2>
-            <p>Маркетинг</p></a></li>
-            <li><a> <img src="./images/img17.jpg" alt="ноут" width="370" height="294">
-            <h2>Growing Business</h2>
-            <p>Приложение</p></a></li>
-        </ul>
-    </main>
+        <main class="content">
+            <ul class="content-list">
+                <li class="content-item">
+                    <a>
+                        <img
+                            src="./images/img9.jpg"
+                            alt="сайт"
+                            width="370"
+                            height="294"
+                        />
+                        <h2 class="content-text">Технокряк</h2>
+                        <p class="content-subtitle">Веб-сайт</p></a
+                    >
+                </li>
 
-    <footer>
-        <a href="/">
-            WebStudio
-        </a>
-        <ul>
-            <li>
-                <address>г. Киев, пр-т Леси Украинки, 26</address>
-            </li>
-            <li><a href="info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+                <li class="content-item">
+                    <a>
+                        <img
+                            src="./images/img10.jpg"
+                            alt="баскетбол"
+                            width="370"
+                            height="294"
+                        />
+                        <h2 class="content-text">
+                            Постер New Orlean vs Golden Star
+                        </h2>
+                        <p class="content-subtitle">Дизайн</p></a
+                    >
+                </li>
 
+                <li class="content-item">
+                    <a>
+                        <img
+                            src="./images/img11.jpg"
+                            alt="лого"
+                            width="370"
+                            height="294"
+                        />
+                        <h2 class="content-text">Ресторан Seafood</h2>
+                        <p class="content-subtitle">Приложение</p></a
+                    >
+                </li>
 
-</body>
+                <li class="content-item">
+                    <a>
+                        <img
+                            src="./images/img12.jpg"
+                            alt="наушники"
+                            width="370"
+                            height="294"
+                        />
+                        <h2 class="content-text">Проект Prime</h2>
+                        <p class="content-subtitle">Маркетинг</p></a
+                    >
+                </li>
+
+                <li class="content-item">
+                    <a>
+                        <img
+                            src="./images/img13.jpg"
+                            alt="коробки"
+                            width="370"
+                            height="294"
+                        />
+                        <h2 class="content-text">Проект Boxes</h2>
+                        <p class="content-subtitle">Приложение</p></a
+                    >
+                </li>
+
+                <li class="content-item">
+                    <a>
+                        <img
+                            src="./images/img14.jpg"
+                            alt="монитор"
+                            width="370"
+                            height="294"
+                        />
+                        <h2 class="content-text">Inspiration has no Borders</h2>
+                        <p class="content-subtitle">Веб-сайт</p></a
+                    >
+                </li>
+
+                <li class="content-item">
+                    <a>
+                        <img
+                            src="./images/img15.jpg"
+                            alt="журнал"
+                            width="370"
+                            height="294"
+                        />
+                        <h2 class="content-text">Издание Limited Edition</h2>
+                        <p class="content-subtitle">Дизайн</p></a
+                    >
+                </li>
+
+                <li class="content-item">
+                    <a>
+                        <img
+                            src="./images/img16.jpg"
+                            alt="бирка"
+                            width="370"
+                            height="294"
+                        />
+                        <h2 class="content-text">Проект LAB</h2>
+                        <p class="content-subtitle">Маркетинг</p></a
+                    >
+                </li>
+
+                <li class="content-item">
+                    <a>
+                        <img
+                            src="./images/img17.jpg"
+                            alt="ноут"
+                            width="370"
+                            height="294"
+                        />
+                        <h2 class="content-text">Growing Business</h2>
+                        <p class="content-subtitle">Приложение</p></a
+                    >
+                </li>
+            </ul>
+        </main>
+
+        <footer class="footer">
+            <a class="footer-logo" href="/">WebStudio</a>
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <address class="footer-adress">
+                        г. Киев, пр-т Леси Украинки, 26
+                    </address>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-mail" href="info@devstudio.com"
+                        >info@devstudio.com</a
+                    >
+                </li>
+                <li class="footer-item">
+                    <a class="footer-tel" href="+380961111111"
+                        >+38 096 111 11 11</a
+                    >
+                </li>
+            </ul>
+        </footer>
+    </body>
 </html>
