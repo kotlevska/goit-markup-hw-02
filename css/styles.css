@@ -227,6 +227,12 @@ body {
     color: var(--text-title-color);
     cursor: pointer;
 }
+
+.second-btn-curent {
+    color: #ffffff;
+    background-color: var(--nav-heder-color);
+}
+
 .second-btn {
     color: var(--text-title-color);
     background-color: #f5f4fa;
